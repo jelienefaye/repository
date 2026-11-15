@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    background-color: #FFF8EC;
+    color: #5B3A29;
+}
+
+h1, h2, h3 {
+    font-family: "Playfair Display", serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #5B3A29;
+}
+
+.logo {
+    font-family: "Playfair Display", serif;
+    font-size: 24px;    
+    color: #F4A82A;
+}
+
+nav a {
+    color: #FFF8EC;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+nav a:hover {
+    color: #F4A82A;
+    text-decoration: underline;
+}
+
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+    background-color: #F4A82A;
+}
+
+.hero h1 {
+    font-size: 40;
+    margin: 0 0 15px 0;
+}
+
+.tagline {
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: #5B3A29;
+    color: #FFF8EC;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 25px;
+}
+
+.cta-button:hover {
+    background-color: #FFF8EC;
+    color: #5B3A29;
+}
+
+.about {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 50px 20px;
+    text-align: center;
+}
+ 
+.about img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.highlights {
+    padding: 50px 20px;
+    text-align: center;
+}
+ 
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+ 
+.card {
+    width: 250px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+
